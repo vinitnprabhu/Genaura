@@ -79,6 +79,14 @@
   @apply flex-center min-h-screen w-full bg-purple-100
 }
 
+.auth {
+  @apply flex-center min-h-screen w-full bg-purple-100
+}
+
+.sidebar {
+  @apply hidden h-screen w-72 bg-white p-5 shadow-md shadow-purple-200/50 lg:flex;
+}
+
 .root {
   @apply flex min-h-screen w-full flex-col bg-white lg:flex-row;
 }
